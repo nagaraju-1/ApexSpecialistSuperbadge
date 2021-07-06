@@ -1,0 +1,36 @@
+{
+  "permissionSets": {
+    "stripUselessFls": true
+  },
+  "objectTranslations": {
+    "stripUntranslatedFields": true,
+    "stripNotVersionedFields": true
+  },
+  "preDeployPlugins": [],
+  "postRetrievePlugins": [],
+  "renderers": [],
+  "profiles": {
+    "addAllUserPermissions": false,
+    "addDisabledVersionedObjects": true,
+    "addExtraObjects": [
+      "*",
+      "!*__?"
+    ],
+    "addExtraTabVisibility": [
+      "*",
+      "!*__?"
+    ],
+    "addExtraApplications": [
+      "standard__*"
+    ],
+    "stripUserPermissionsFromStandardProfiles": true,
+    "stripUnversionedStuff": true
+  },
+  "roles": {
+    "stripPartnerRoles": true
+  },
+  "staticResources": {
+    "useBundleRenderer": []
+  },
+  "stripManagedPackageFields": []
+}
